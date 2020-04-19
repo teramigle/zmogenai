@@ -88,8 +88,8 @@ body {
 
 .girl .eye-1 {
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     background-color: #880061;
     z-index: 5;
     top: 45px;
@@ -99,8 +99,8 @@ body {
 
 .girl .eye-2 {
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     background-color: #880061;
     z-index: 5;
     top: 45px;
