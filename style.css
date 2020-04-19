@@ -1,0 +1,338 @@
+body {
+    background-color: #ffeaf3;
+    margin: 0;
+    padding: 0;
+}
+
+.girl {
+    width: 49%;
+    height: 500px;
+    display: inline-block;
+}
+
+.girl .face {
+    background-color: #ffc8b3;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    top: 112px;
+    left: 298px;
+}
+
+.girl .hair {
+    background-color: #fe5f37;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 50% 50% 10% 10%;
+    top: 85px;
+    left: 289px;
+    overflow: hidden;
+}
+
+.girl .bangs-1 {
+    background-color: #fe5f37;
+    width: 70px;
+    height: 100px;
+    border-radius: 50% 0 50% 50%;
+    position: absolute;
+    z-index: 3;
+    top: -25px;
+    left: -15px;
+    
+}
+
+.girl .bangs-2 {
+    background-color: #fe5f37;
+    width: 100px;
+    height: 100px;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    z-index: 3;
+    top: -40px;
+    left: 40px; 
+}
+
+
+.girl .cover {
+    background-color: #ffc8b3;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 20px;
+    top: -27px;
+}
+
+.girl .nose {
+    width: 8px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #ff7da2;
+    z-index: 4;
+    position: relative;
+    top: 45px;
+    left: 46px;
+}
+
+.girl .lips {
+    border: 4px solid #db4e61;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 33px;
+    left: 37px;
+}
+
+.girl .eye-1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #880061;
+    z-index: 5;
+    top: 45px;
+    left: 25px;
+    border-radius: 50%;
+}
+
+.girl .eye-2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #880061;
+    z-index: 5;
+    top: 45px;
+    left: 65px;
+    border-radius: 50%; 
+}
+
+.girl .body {
+    background-color: #FC4C60;
+    width: 120px;
+    height: 130px;
+    position: absolute;
+    top: 211px;
+    left: 289px;
+    border-radius: 50% 50% 20% 20%;
+    z-index: 1;
+}
+
+.girl .neck {
+    background-color: #FF9D86;
+    width: 20px;
+    height: 22px;
+    border-radius: 0 0 50% 50%;
+    position: absolute;
+    top: 210px;
+    left: 339px;
+    z-index: 2;
+}
+.boy {
+    width: 49%;
+    height: 500px;
+    display: inline-block;
+}
+
+.boy .face {
+    background-color: #F7C09A;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 0 50% 50%;
+    position: absolute;
+    z-index: 3;
+    top: 112px;
+    left: 950px;
+    border: 5px solid ;
+
+}
+
+.boy .hair-1 {
+    background-color: #40C4DF;
+    width: 63px;
+    height: 45px;
+    position: absolute;
+    border-radius: 70% 0 0 0;
+    top: 82px;
+    left: 960px;
+    z-index: 3;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-left: 5px solid;
+    
+}
+.boy .hair-2 {
+    background-color: #40C4DF;
+    width: 63px;
+    height: 45px;
+    position: absolute;
+    border-radius: 0 0 70% 0;
+    top: 82px;
+    left: 1010px;
+    z-index: 3;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-right: 5px solid;
+    
+}
+
+.boy .bangs-1 {
+    background-color: #40C4DF;
+    width: 15px;
+    height: 22px;
+    position: absolute;
+    border-radius: 50% 50% 0 0;
+    top: 95px;
+    left: 943px;
+    z-index: 3;
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-left: 5px solid;
+}
+
+.boy .bangs-2 {
+    background-color: #40C4DF;
+    width: 15px;
+    height: 22px;
+    position: absolute;
+    border-radius: 0 0 50% 50%;
+    top: 119px;
+    left: 943px;
+    z-index: 3;
+    border-bottom: 5px solid;
+    border-right: 5px solid;
+    border-left: 5px solid;
+}
+
+.ear-1 {
+    background-color: #EDAF85;
+    width: 14px;
+    height: 14px;
+    z-index: 1;
+    border: 5px solid;
+    position: absolute;
+    top: 145px;
+    left: 939px;
+    border-radius: 50% 0 0 50%;
+}
+
+.ear-2 {
+    background-color: #EDAF85;
+    width: 14px;
+    height: 14px;
+    z-index: 1;
+    border: 5px solid;
+    position: absolute;
+    top: 145px;
+    left: 1047px;
+    border-radius: 0 50% 50% 0;
+}
+
+.boy .eye-1 {
+    background-color: #491352;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 45px;
+    left: 20px;
+    border-radius: 50%;
+    
+}
+.boy .eye-2 {
+    background-color: #491352;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 45px;
+    left: 70px;
+    border-radius: 50%;
+    
+}
+
+.boy .lips {
+    border: 5px solid;
+    width: 14px;
+    height: 17px;
+    position: absolute;
+    border-radius: 50%;
+    top: 45px;
+    left: 39px;
+}
+
+.boy .cover {
+    background-color: #F7C09A;
+    height: 20px;
+    width: 25px;
+    position: absolute;
+    left: 38px;
+    top: 37px;
+}
+
+.boy .neck {
+    background-color: #F7C09A;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 988px;
+    top: 210px;
+    border: 5px solid;
+    border-radius: 0 0 50% 50%;
+    z-index: 2;
+}
+
+.boy .body {
+    background-color: #FC4C60;
+    width: 120px;
+    height: 100px;
+    border-radius: 50% 50% 0 0;
+    position: absolute;
+    z-index: 1;
+    top: 220px;
+    left: 943px;
+    border: 5px solid;
+}
+
+.laptop {
+    background-color: #fff;
+    width: 175px;
+    height: 110px;
+    border-radius: 7%;
+    position: absolute;
+    z-index: 1;
+    top: 255px;
+    left: 915px;
+    border: 5px solid;
+}
+
+.logo-1 {
+    background-color: #D8D6D7;
+    width: 22px;
+    height: 35px;
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 75px;
+}
+
+.logo-2 {
+    background-color: #D8D6D7;
+    width: 22px;
+    height: 35px;
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 75px;
+    transform: rotate(60deg);
+}
+
+.logo-3 {
+    background-color: #D8D6D7;
+    width: 22px;
+    height: 35px;
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 75px;
+    transform: rotate(-60deg);
+}
